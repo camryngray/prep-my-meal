@@ -5,4 +5,9 @@ edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
+[lib]
+name = "meal"                # The name of the target.
+path = "src/lib/meal.rs"    # The source file of the target.
+test = true                  # Is tested by default.
+
 [dependencies]
